@@ -1,12 +1,4 @@
-import PlayStore from "./svgComponents/PlayStore";
-import Apple from "./svgComponents/Apple";
-
 const DownloadSection: React.FC = () => {
-  const phoneImages = [
-    { src: "/phone1.png", alt: "App home screen" },
-    { src: "/phone2.png", alt: "Transaction history" },
-    { src: "/phone3.png", alt: "Card management" },
-  ];
 
   return (
     <section className="" id="/download">

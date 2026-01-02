@@ -1,4 +1,4 @@
-const StackedCard = ({ maxWidth = "422px", className = "" }) => {
+const StackedCard = ({ maxWidth = "422px" }) => {
   return (
     <span style={{ width: "100%", maxWidth: maxWidth }}>
       <svg
@@ -89,7 +89,7 @@ const StackedCard = ({ maxWidth = "422px", className = "" }) => {
         </g>
         <g clip-path="url(#clip2_321_66334)">
           <foreignObject x="91.35" y="27.4927" width="363.16" height="242.641">
-            <div xmlns="http://www.w3.org/1999/xhtml"></div>
+            <div></div>
           </foreignObject>
           <g
             filter="url(#filter1_dd_321_66334)"

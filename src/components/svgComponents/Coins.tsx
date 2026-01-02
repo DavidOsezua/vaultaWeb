@@ -1,4 +1,4 @@
-const Coins = ({ maxWidth = "417px", className = "" }) => {
+const Coins = ({ maxWidth = "417px" }) => {
   return (
     <span style={{ width: "100%", maxWidth: maxWidth }}>
       <svg

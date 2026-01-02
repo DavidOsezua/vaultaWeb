@@ -1,4 +1,4 @@
-const Card = ({ maxWidth = "100%", className = "" }) => {
+const Card = ({ maxWidth = "100%" }) => {
   return (
     <div style={{ width: "100%", maxWidth: maxWidth }}>
       <svg
@@ -15,7 +15,7 @@ const Card = ({ maxWidth = "100%", className = "" }) => {
             width="833.855"
             height="557.131"
           >
-            <div xmlns="http://www.w3.org/1999/xhtml"></div>
+            <div></div>
           </foreignObject>
           <g
             filter="url(#filter0_dd_321_66270)"
