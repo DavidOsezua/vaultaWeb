@@ -61,17 +61,16 @@ const MobileMenu: React.FC<{
         {/* CTA Button */}
         <div className="mt-auto pb-8">
           <button
-            onClick={() => {
-              scroll("download");
-              onClose();
-            }}
+           
             className="w-full text-white px-6 py-4 rounded-lg text-lg transition-colors"
             style={{
               background:
                 "linear-gradient(to bottom, #CB9CE0 0%, #903BC6 100%)",
             }}
           >
-            Get started
+              <a href="https://vaulta.ae/signup">
+            Get Started now
+            </a>
           </button>
         </div>
       </div>

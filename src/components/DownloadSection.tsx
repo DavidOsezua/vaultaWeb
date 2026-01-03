@@ -1,3 +1,5 @@
+import { NavLink } from "react-router";
+
 const DownloadSection: React.FC = () => {
 
   return (
@@ -26,7 +28,10 @@ const DownloadSection: React.FC = () => {
                 "linear-gradient(11.41deg, #CB9CE0 5.95%, #903BC6 102.98%)",
             }}
           >
+           <a href="https://vaulta.ae/signup">
             Get Started now
+            </a>
+          
           </button>
         </div>
       </div>

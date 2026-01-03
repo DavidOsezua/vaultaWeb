@@ -66,7 +66,9 @@ const Navbar: React.FC = () => {
             onClick={() => scrollToSection("/download")}
             className="text-gray-300 hover:text-white transition-colors"
           >
+            <a href="https://vaulta.ae/login?o=0">
             Vist Dashboard
+            </a>
           </button>
           <NavLink
             to="/policy"
@@ -84,9 +86,8 @@ const Navbar: React.FC = () => {
           style={{
             background: "linear-gradient(to bottom, #CB9CE0 0%, #903BC6 100%)",
           }}
-          onClick={() => scrollToSection("/download")}
         >
-          Get started
+          <a href="https://vaulta.ae/signup">Get Started now</a>
         </button>
 
         {/* Mobile Hamburger - Only show on mobile/tablet, hidden on desktop */}
